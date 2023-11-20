@@ -6,17 +6,21 @@
  */
 
 class Dice { 
-int[] dice;
-for (i=0, i=<20, i++) {
-    num = (int)Math.random(0,7);
-   // dice.append() highest
+    int[n] dice;
+    int max = 0;
+    for (i=0, i=<20, i++) {
+        num = (int)(Math.random()*6)+1;
+       // dice.append() highest
+    }
+
+    for(n=0, n=<dice.length(), n++) {
+        if(n>max) {
+            max = n;
+        }
+    }
+
 }
 
-for(n=0, n=<dice.length(), n++) {
-
-}
-
-// 20 kere (int)Math.random(0,7); bunu array'de storela sonra array'deki en büyük değeri bulmak için iterate et
-
-
+public static void main(String[] args) {
+    System.out.println(max);
 }
