@@ -7,6 +7,14 @@
 
 class Dice { 
 int[] dice;
+for (i=0, i=<20, i++) {
+    num = (int)Math.random(0,7);
+   // dice.append() highest
+}
+
+for(n=0, n=<dice.length(), n++) {
+
+}
 
 // 20 kere (int)Math.random(0,7); bunu array'de storela sonra array'deki en büyük değeri bulmak için iterate et
 
