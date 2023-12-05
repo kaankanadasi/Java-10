@@ -17,12 +17,14 @@ public class DoubleArr {
             { 4, 3, 6, 8, 1, 4, 3, 7, 3, 4 }
         };
 
+        // take input
         Scanner scan = new Scanner(System.in);
         int firstX = scan.nextInt();
         int firstY = scan.nextInt(); 
         int secondX = scan.nextInt();
         int secondY = scan.nextInt(); 
 
+        // adding the values in 2-D array, checking the validity of values
         if (valid(firstX, secondX, firstY, secondY, base)) {
             for(int i = firstY; i <= secondY; i++) {
                 for(int j = firstX; j <= secondX; j++) {
